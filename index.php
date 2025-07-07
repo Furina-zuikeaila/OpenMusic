@@ -647,11 +647,6 @@
                     loadTrack(index);
                 });
             });
-            
-            // 自动播放第一首（如果有音乐文件）
-            if (tracks.length > 0) {
-                loadTrack(0);
-            }
         });
     </script>
 </body>
